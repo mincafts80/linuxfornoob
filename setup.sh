@@ -9,7 +9,7 @@ echo "
                                                      "
 sudo pacman -Syu jre-openjdk-headless jre-openjdk jdk-openjdk openjdk-doc openjdk-src discord
 git clone https://aur.archlinux.org/minecraft-launcher.git && cd ~/minecraft-launcher/ && makepkg -si && cd ~/
-git clone https://aur.archlinux.org/google-chrome.git && cd google-chrome && makepkg -si && cd ~/
+sudo pacman -S nodejs pnpm openssl
 sudo mv ~/git/pacman.conf /etc/
 
 
