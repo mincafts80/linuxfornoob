@@ -13,3 +13,7 @@ sudo pacman -Rns firefox
 git clone https://aur.archlinux.org/minecraft-launcher.git && cd ~/linuxfornoob/minecraft-launcher/ && makepkg -si && cd ~/
 git clone https://aur.archlinux.org/google-chrome.git && cd ~/linuxfornoob/google-chrome/ && makepkg -si && cd ~/
 sudo mv ~/git/pacman.conf /etc/
+mkdir ~/.minecraft
+mkdir ~/minecraft/mods
+mkdir ~/minecraft/assets
+mkdir ~/minecraft/versions
