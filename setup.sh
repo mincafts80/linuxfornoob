@@ -18,5 +18,6 @@ mkdir ~/minecraft/mods
 mkdir ~/minecraft/assets
 mkdir ~/minecraft/versions
 
-sudo pacman -S fish 
-make sure to do chsh with /usr/bin/fish
+sudo pacman -S fish
+chsh /usr/bin/fish
+
